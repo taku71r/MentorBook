@@ -15,6 +15,10 @@
 		FDE946BB246E305400452529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE946B9246E305400452529 /* LaunchScreen.storyboard */; };
 		FDE946C6246E305500452529 /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE946C5246E305500452529 /* MentorBookTests.swift */; };
 		FDE946D1246E305500452529 /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE946D0246E305500452529 /* MentorBookUITests.swift */; };
+		FDE946E2246E30CD00452529 /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDE946DF246E30CD00452529 /* ryo.jpg */; };
+		FDE946E3246E30CD00452529 /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDE946E0246E30CD00452529 /* nagata.jpg */; };
+		FDE946E6246E326600452529 /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE946E5246E326600452529 /* Mentor.swift */; };
+		FDE946E8246E510700452529 /* taithi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FDE946E7246E510700452529 /* taithi.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		FDE946CC246E305500452529 /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE946D0246E305500452529 /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		FDE946D2246E305500452529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE946DF246E30CD00452529 /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		FDE946E0246E30CD00452529 /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		FDE946E5246E326600452529 /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
+		FDE946E7246E510700452529 /* taithi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		FDE946AD246E305100452529 /* MentorBook */ = {
 			isa = PBXGroup;
 			children = (
+				FDE946DE246E30CD00452529 /* mentorbook素材 */,
 				FDE946AE246E305100452529 /* AppDelegate.swift */,
 				FDE946B0246E305100452529 /* SceneDelegate.swift */,
 				FDE946B2246E305100452529 /* ViewController.swift */,
@@ -106,6 +115,7 @@
 				FDE946B7246E305400452529 /* Assets.xcassets */,
 				FDE946B9246E305400452529 /* LaunchScreen.storyboard */,
 				FDE946BC246E305400452529 /* Info.plist */,
+				FDE946E5246E326600452529 /* Mentor.swift */,
 			);
 			path = MentorBook;
 			sourceTree = "<group>";
@@ -126,6 +136,16 @@
 				FDE946D2246E305500452529 /* Info.plist */,
 			);
 			path = MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		FDE946DE246E30CD00452529 /* mentorbook素材 */ = {
+			isa = PBXGroup;
+			children = (
+				FDE946DF246E30CD00452529 /* ryo.jpg */,
+				FDE946E0246E30CD00452529 /* nagata.jpg */,
+				FDE946E7246E510700452529 /* taithi.jpg */,
+			);
+			path = "mentorbook素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE946E8246E510700452529 /* taithi.jpg in Resources */,
+				FDE946E2246E30CD00452529 /* ryo.jpg in Resources */,
+				FDE946E3246E30CD00452529 /* nagata.jpg in Resources */,
 				FDE946BB246E305400452529 /* LaunchScreen.storyboard in Resources */,
 				FDE946B8246E305400452529 /* Assets.xcassets in Resources */,
 				FDE946B6246E305100452529 /* Main.storyboard in Resources */,
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE946E6246E326600452529 /* Mentor.swift in Sources */,
 				FDE946B3246E305100452529 /* ViewController.swift in Sources */,
 				FDE946AF246E305100452529 /* AppDelegate.swift in Sources */,
 				FDE946B1246E305100452529 /* SceneDelegate.swift in Sources */,
